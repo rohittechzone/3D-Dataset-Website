@@ -1,0 +1,241 @@
+body {
+    background-image: url("bg.png");
+    overflow: hidden;
+} 
+::selection {
+    background: rgb(0, 255, 157);
+  }
+button {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:6vh;
+    background: rgb(0, 255, 213);
+    border: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 50px;
+    width: 40vw;
+    margin-top:81vh;
+    margin-left: 30vw;
+  }
+button:hover {
+    background: rgb(0, 255, 149);
+    cursor:pointer
+}
+h3[class="howitworksbottom"]{
+    font-size: 5vh;
+    margin-top:  -3vh;
+}
+.bottom {
+    text-align: end; 
+    margin-top: 5vh;
+}
+a[class="works"]{
+    background-color: #a200ff8a;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 50px;
+    color: rgb(255, 255, 255);
+    padding: 1vh 1.5vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.5vh;
+    font-family: 'Roboto', sans-serif;
+    z-index: 1;
+    text-align: center;
+    animation: glowing1 5000ms infinite;
+}
+p{
+    font-size:1.5vh;
+    margin-top : 15vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    font-size:5vh;
+    font-family: Impact;
+    text-align: center;
+    margin-top: 0vh;
+}
+h4[class="howitworksbottom"]{
+    font-size: 3.5vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -0.5vh;
+    text-align: center;
+}
+button[class="discord"] {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:3.5vh;
+    background: rgb(115, 138, 219);
+    border: none;
+    border: 0.5vh solid rgb(0, 255, 149);
+    border-top-left-radius: 5vw;
+    border-top-right-radius: 7vh;
+    border-bottom-right-radius: 5vw;
+    border-bottom-left-radius: 7vh;
+    width: 50vw;
+    margin-top:55vh;
+    margin-left: 25vw;
+    color: rgb(0, 0, 0);
+    animation: glowing 5000ms infinite;
+  }
+button[class="discord"]:hover {
+    background: rgb(0, 255, 149);
+    cursor:pointer
+}  
+.rtz a{
+    background-color: #ff00268a;
+    border: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 50px;
+    color: rgb(255, 255, 255);
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.5vh;
+    font-family: 'Roboto', sans-serif;
+    margin: 1vw 1vh;
+    z-index: 1;
+    text-align: center;
+    animation: glowing1 5000ms infinite;
+}
+.rtz a span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.rtz:hover span {
+    padding-right: 10px;
+}  
+.rtz a:hover{
+    opacity: 1;
+    right: 0;
+}
+input{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size:5vh;
+    background: rgb(255, 153, 0);
+    border: 3px solid rgb(0, 0, 0);
+    margin-left:23.5vw;
+    margin-top: 40vh;
+    width: 50vw;
+    height: 5vh;
+    text-align: center;
+}
+textarea[id = "ans"]{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size:4vh;
+    background: rgb(255, 153, 0);
+    border: 3px solid rgb(0, 0, 0);
+    margin-left: 14.1vw;
+    margin-top: 3vh;
+    width: 65vw;
+    height: 20vh;
+    text-align: center;
+}
+input[id = "tag"]{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size:4vh;
+    background: rgb(255, 0, 157);
+    border: 3px solid rgb(0, 0, 0);
+    margin-left:27vw;
+    margin-top: 0vh;
+    width: 40vw;
+    height: 4vh;
+    text-align: center;
+}
+input[id = "ques1"]{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size:4vh;
+    background: rgb(0, 162, 255);
+    border: 3px solid rgb(0, 0, 0);
+    margin-left:14vw;
+    margin-top: 4vh;
+    width: 65vw;
+    height: 4vh;
+    text-align: center;
+}
+input[id = "ques2"]{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size:4vh;
+    background: rgb(0, 162, 255);
+    border: 3px solid rgb(0, 0, 0);
+    margin-left:14vw;
+    margin-top: 2vh;
+    width: 65vw;
+    height: 4vh;
+    text-align: center;
+}
+input[id = "ques3"]{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size:4vh;
+    background: rgb(0, 162, 255);
+    border: 3px solid rgb(0, 0, 0);
+    margin-left:14vw;
+    margin-top: 2vh;
+    width: 65vw;
+    height: 4vh;
+    text-align: center;
+}
+input[id = "ques4"]{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size:4vh;
+    background: rgb(0, 162, 255);
+    border: 3px solid rgb(0, 0, 0);
+    margin-left:14vw;
+    margin-top: 2vh;
+    width: 65vw;
+    height: 4vh;
+    text-align: center;
+}
+
+
+h1{
+    font-size: 5.5vh;
+    font-family: Impact;
+    text-align: center;
+    margin-top: 0vh;
+}
+h3{
+    font-size:3vh;
+    font-family: Impact;
+    text-align: center;
+    margin-top: -4vh;
+}
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+@keyframes glowing {
+    0% { box-shadow: 0 0 -2vh #b700ff; }
+    40% { box-shadow: 0 0 3vh #b700ff; }
+    60% { box-shadow: 0 0 3vh #b700ff; }
+    100% { box-shadow: 0 0 -2vh #b700ff; }
+  }
+  @keyframes glowing1 {
+    0% { box-shadow: 0 0 -2vh #00ffdd; }
+    40% { box-shadow: 0 0 3vh #00ffdd; }
+    60% { box-shadow: 0 0 3vh #00ffdd; }
+    100% { box-shadow: 0 0 -2vh #00ffdd; }
+  }  

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <script type="text/javascript">
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile == false) {
+            window.location.replace("index.html");
+        }
+  </script>
+  <head>
+    <link rel="shortcut icon" type="image/x-icon" href="logo1/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">  
+    <meta charset="utf-8">
+    <title>Printing</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-database.js"></script>
+    <div class="rtz">
+    </div>
+   <h1>3D Printing Dataset</h1>
+   
+   <h3>Grow The AI</h3>
+
+    <link rel="stylesheet" href="styles-mob.css">
+    
+    <div class="bottom">
+
+     </div>
+    <script src="site_rtz.js"></script>
+    
+
+  </head>
+  <body>
+    <input type="text" id ="tag">
+    <input type="text" id ="ques1">
+    <input type="text" id ="ques2">
+    <input type="text" id ="ques3"> 
+    <input type="text" id ="ques4">
+    <textarea  rows="2" id ="ans" style="resize: none;"></textarea>
+    <script src="updateLink.js"></script>
+    <script src="sketch.js"></script>
+    <p>
+      Question 1, Question 2, Question 3, Question 4 (minimum one required) should be same question but 
+        with different words, please fill minimum one question in different words and Answer is what the bot should 
+      say when the question i asked, make it clear and hit add! Thats it! 
+      </p>
+  </body>
+</html>
